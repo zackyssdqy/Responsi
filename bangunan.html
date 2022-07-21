@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bangunan.css">
+    <script src="script.js"></script>
+    <title>Barokah Materials</title>
+</head>
+<body>
+        <nav>
+            <a href="#opening">Home</a>
+            <a href="#barang">Product</a>
+            <a href="lihat.php">Daftar Pesanan</a>
+        </nav>
+        <header id="opening">
+            <br><br><br><br><br><br><br><br><br>
+            <div class="container">
+                <div class="kiri">
+                    <img src="logobangunan.png">
+                </div>
+                <div class="kanan">
+                    <h1 style="margin-top: 100px;">BAROKAH JAYA ABADI</h1>
+                    <p>Menyediakan kebutuhan Kuli Anda</p>
+                </div>
+            </div>
+        </header>
+    <main id="barang">
+        <br><br><br>
+        <center><h1 id="product" style="color: hsl(159, 9%, 63%);">SEDIA : </h1></center><br>
+        <section id="product">
+            <div class="product-tile">
+            <img src="paku.png" style="border-radius: 20%; width: 300px; height: 200px;">
+                <p>PAKU</p>
+            </div>
+            <div class="product-tile">
+            <img src="bata.png" style="border-radius: 20%; width: 200px;">
+                <p>BATA MERAH</p>
+            </div>
+            <div class="product-tile">
+            <img src="semen.png" style="border-radius: 20%; width: 250px; height: 200px;">
+                <p>SEMEN</p>
+            </div>
+            <div class="product-tile">
+            <img src="pasir.png" style="border-radius: 20%; width: 200px;">
+                <p>PASIR</p>
+            </div>
+            <div class="product-tile">
+            <img src="pipa.png" style="border-radius: 20%; width: 210px; width: 250px;">
+                <p>PIPA PARALON</p>
+            </div>
+            <div class="product-tile">
+            <img src="batu.png" style="border-radius: 20%; width: 170px;">
+                <p>BATU</p>
+            </div>
+            </div>
+        </section>
+            
+        <section>
+            <center><h1 id="project" style="color: hsl(159, 9%, 63%);">TULIS PESANAN ANDA</h1></center>
+            <form name="form1" method="post" action="proses.php">
+                <table width="58%" border="0" align="center">
+                    <tr>
+                        <td>Nama</td>
+                        <td><input name="nama" type="text" id="nama" /></td>
+                    </tr>
+                    <tr>
+                        <td>Alamat</td>
+                        <td><input name="alamat" type="text" id="alamat" /></td>
+                    </tr>
+                    <tr>
+                        <td>Pesanan</td>
+                        <td><input name="pesan" type="text" id="pesan" /></td>
+                    </tr>
+                    <tr>
+                        <td>Jumlah</td>
+                        <td><input name="jumlah" type="number" id="jumlah" /></td>
+                    </tr>
+                    <tr>
+                        <td>Catatan</td>
+                        <td><textarea name="catatan" id="catatan"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                        <td>
+                            <input type="submit" name="Submit" value="Kirim" /><input type="reset" 43.name="Submit2"
+                                value="Batal" />
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </section>
+    </main>
+    <footer id="footer">
+            <div>
+                <a href="https://www.instagram.com/zakcyy_/" target="_blank"><img src="ig.png" width="150px"></a>
+                <p>Instagram</p>
+            </div>
+            <div>
+                <a href="https://facebook.com/zacky.assidiqy/" target="_blank"><img src="fb.png" width="175px"></a>
+                <p>Facebook</p>
+            </div>
+    </footer>
+</body>
+</html>
